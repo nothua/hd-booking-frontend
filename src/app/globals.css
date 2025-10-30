@@ -5,6 +5,32 @@
   --foreground: #171717;
 }
 
+
+@theme {
+  --color-delite-yellow: #FFD643;
+  --color-delite-black: #161616;
+  --color-delite-hint: #727272;
+  --color-delite-search: #EDEDED;
+  --color-delite-gray: #6C6C6C;
+  --color-delite-background: #F0F0F0;
+  --color-delite-tag: #D6D6D6;
+  --color-delite-disabled: #CCCCCC;;
+  --color-delite-text: #838383;
+  --color-delite-strong: #6a6a6a;
+  --color-delite-orange: #FF4C0A;
+  --color-delite-border: #BDBDBD;
+  --color-delite-about: #EEEEEE;
+  
+  --color-delite-cart: #EFEFEF;
+  --color-delite-cart-text: #656565;
+  --color-delite-cart-border: #C9C9C9;
+  --color-delite-cart-disabled-button: #D7D7D7;
+  --color-delite-cart-textbox: #DDDDDD;
+  --color-delite-go-home: #E3E3E3;
+  
+  --text-tiny: 0.625rem; 
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -20,7 +46,6 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F9F9F9;
+  font-family: 'Inter', sans-serif;
 }
