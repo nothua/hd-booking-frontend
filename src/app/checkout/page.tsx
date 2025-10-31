@@ -351,10 +351,10 @@ function CheckoutClientPage() {
 								</div>
 								{appliedPromo && discountAmount > 0 && (
 									<div className="flex justify-between">
-										<span className="text-delite-cart-text text-base text-green-600">
+										<span className="text-delite-cart-text text-base">
 											Discount
 										</span>
-										<span className="text-delite-black text-sm text-green-600">
+										<span className="text-delite-black text-sm">
 											-₹{discountAmount.toFixed(0)}
 										</span>
 									</div>
